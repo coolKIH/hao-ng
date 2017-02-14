@@ -127,11 +127,6 @@ body {
   -webkit-box-shadow:  0 0 16px #000000;
   -moz-box-shadow:  0 0 16px #000000;
   box-shadow:  0 0 16px #000000;
-  font-size: 0;
-
-  -webkit-animation: fade-in 500ms;
-  -o-animation: fade-in 500ms;
-  animation: fade-in 500ms;
 }
 .top-nav-bar .navigation a {
   display: inline-block;
