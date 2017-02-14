@@ -22,7 +22,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-
+  background-color: rgba(220,221,222,0.2);
   min-height: 100%;
 }
 .home-outlook {
@@ -46,6 +46,34 @@ body {
   background-image: url("images/hd-road-wallpaper.jpg");
   background-size: cover;
   background-position: center bottom;
+
+  -webkit-animation: fade-in 500ms;
+  -o-animation: fade-in 500ms;
+  animation: fade-in 500ms;
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .home-outlook .navigation {
   position: absolute;
@@ -61,7 +89,8 @@ body {
   color: #955214;
   letter-spacing: 2px;
   padding: 2px 5px 1px 5px;
-  border-bottom: 1px solid #955214;
+  border-bottom: 2px solid #955214;
+  border-top: 2px solid white;
   text-decoration: none;
 
   -webkit-transition: all 300ms linear;
@@ -71,8 +100,8 @@ body {
 .home-outlook .navigation a:not(:last-child) {
   margin-right: 10px;
 }
-.home-outlook .navigation a:hover, .home-outlook .navigation a:active {
-  border-top: 1px solid #955214;
+.home-outlook .navigation a:hover, .home-outlook .navigation a:active, .home-outlook .navigation a.picked {
+  border-top: 2px solid #955214;
 }
 @media all and (max-width: 800px) {
   .home-outlook {
