@@ -59,6 +59,9 @@ body {
   0% {
     opacity: 0;
   }
+  5% {
+    opacity: 0.5;
+  }
   100% {
     opacity: 1;
   }
@@ -67,6 +70,9 @@ body {
   0% {
     opacity: 0;
   }
+  5% {
+    opacity: 0.5;
+  }
   100% {
     opacity: 1;
   }
@@ -74,6 +80,9 @@ body {
 @keyframes fade-in {
   0% {
     opacity: 0;
+  }
+  5% {
+    opacity: 0.5;
   }
   100% {
     opacity: 1;
