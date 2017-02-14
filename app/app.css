@@ -21,26 +21,31 @@ body {
   font-family:  "Microsoft Yahei","微软雅黑", Arial, STXihei, "华文细黑",Tahoma, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 
   min-height: 100%;
 }
 .home-outlook {
   width: 80%;
-  height: 99vh;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.5em 0 2em 0;
-  position: relative;
+  height: 80vh;
+  padding-bottom: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
 }
 .home-outlook .photo {
   height: 100%;
-  background: #E6DADA; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #E6DADA , #274046); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #E6DADA , #274046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  -webkit-box-shadow:  0 0 18px rgba(0,0,0,0.5);
-  -moz-box-shadow:  0 0 18px rgba(0,0,0,0.5);
-  box-shadow:  0 0 18px rgba(0,0,0,0.5);
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("images/hd-road-wallpaper.jpg");
+  background-size: cover;
+  background-position: center bottom;
 }
 .home-outlook .navigation {
   position: absolute;
@@ -72,6 +77,5 @@ body {
 @media all and (max-width: 800px) {
   .home-outlook {
     width: 100%;
-    padding-top: 0;
   }
 }
