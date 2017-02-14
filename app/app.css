@@ -71,11 +71,18 @@ body {
 .home-outlook .navigation a:not(:last-child) {
   margin-right: 10px;
 }
-.home-outlook .navigation a:hover {
+.home-outlook .navigation a:hover, .home-outlook .navigation a:active {
   border-top: 1px solid #955214;
 }
 @media all and (max-width: 800px) {
   .home-outlook {
     width: 100%;
+    top: 0;
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+    height: 90vh;
   }
 }
