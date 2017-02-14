@@ -19,7 +19,7 @@ html {
 
 body {
   font-family:  "Microsoft Yahei","微软雅黑", Arial, STXihei, "华文细黑",Tahoma, Helvetica, sans-serif;
-  background-color: #eff3f6;
+  background-color: #fffeee;
 
   min-height: 100%;
   position: relative;
@@ -35,18 +35,21 @@ a {
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
-.home-outlook img {
+.home-outlook .photo {
   width: 100%;
-  height: auto;
+  height: 500px;
   -webkit-box-shadow: 0 0 18px #a0ac48;
   -moz-box-shadow: 0 0 18px #a0ac48;
   box-shadow: 0 0 18px #a0ac48;
+  background-color: #a0ac48;
+  background: url("images/ColourfulBackground7Colour2.svg") no-repeat center center;
+  background-size: cover;
 }
 .navigation {
   display: block;
   width: 100%;
   text-align: center;
-  padding-top: 2px;
+  padding-top: 5px;
 }
 .navigation a {
   display: inline-block;
@@ -54,7 +57,6 @@ a {
   color: #a0ac48;
   position: relative;
   line-height: 1em;
-  font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
 
@@ -85,5 +87,10 @@ a {
 @media all and (max-width: 800px) {
   .home-outlook {
     width: 100%;
+  }
+}
+@media all and (max-height: 600px) {
+  .home-outlook .photo {
+    height: 300px;
   }
 }
