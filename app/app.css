@@ -146,6 +146,33 @@ body {
 }
 .top-nav-bar .navigation a:last-child {
   margin-right: 1em;
+  -webkit-animation:last-child-of-top-nav 500ms;
+  -o-animation:last-child-of-top-nav 500ms;
+  animation:last-child-of-top-nav 500ms;
+}
+@-webkit-keyframes last-child-of-top-nav {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: 1em;
+  }
+}
+@-moz-keyframes last-child-of-top-nav {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: 1em;
+  }
+}
+@keyframes last-child-of-top-nav {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: 1em;
+  }
 }
 .bg-blue .navigation {
   background-color: #168de2;
