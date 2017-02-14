@@ -89,7 +89,6 @@ body {
   left: 0;
   right: 0;
   text-align: right;
-  font-size: 0;
 }
 .home-outlook .navigation a {
   font-size: 14px;
@@ -97,8 +96,8 @@ body {
   color: #955214;
   letter-spacing: 4px;
   padding: 2px 5px 1px 5px;
-  border-bottom: 2px solid #955214;
-  border-top: 2px solid transparent;
+  border-bottom: 1px solid #955214;
+  border-top: 1px solid transparent;
   text-decoration: none;
 
   -webkit-transition: all 300ms linear;
@@ -106,14 +105,50 @@ body {
   transition: all 300ms linear;
 }
 .home-outlook .navigation a:not(:last-child) {
-  margin-right: 16px;
+  margin-right: 8px;
 }
 .home-outlook .navigation a:last-child {
   margin-right: 5px;
 }
-.home-outlook .navigation a:hover, .home-outlook .navigation a:active, .home-outlook .navigation a.picked {
-  border-top: 2px solid #955214;
+.home-outlook .navigation a:hover, .home-outlook .navigation a:active, .home-outlook .navigation a.picked, .home .navigation .home {
+  border-top: 1px solid #955214;
 }
+
+.top-nav-bar {
+  height: 2.5em;
+}
+.top-nav-bar .navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+  background-color: #955214;
+}
+.top-nav-bar .navigation a {
+  display: inline-block;
+  line-height: 2.5em;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.top-nav-bar .navigation a:last-child {
+  margin-right: 1em;
+}
+.bg-blue .navigation {
+  background-color: #168de2;
+}
+.bg-orange .navigation {
+  background-color: #fbbc05;
+}
+.bg-red .navigation {
+  background-color: #dd4b39;
+}
+.top-nav-bar .navigation a:hover, .top-nav-bar .navigation a:active, .articles .articles, .intro .intro, .showcase .showcase{
+  background-color: rgba(0,0,0,0.1);
+  text-shadow: 0 0 10px white;
+}
+
 @media all and (max-width: 800px) {
   .home-outlook {
     width: 100%;
