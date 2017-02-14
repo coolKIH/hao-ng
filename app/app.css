@@ -57,6 +57,10 @@ a {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
+
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  transition: all 200ms linear;
 }
 .navigation a:not(:last-child) {
   padding-right: 9px;
@@ -70,12 +74,7 @@ a {
   line-height: 1em;
   opacity: 0.5;
 }
-.navigation a span {
-  -webkit-transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-  transition: all 200ms linear;
-}
-.navigation a:hover span, .navigation a:active span {
+.navigation a:hover, .navigation a:active {
   color: #96172e;
 }
 @media all and (max-width: 880px) {
