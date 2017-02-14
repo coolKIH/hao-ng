@@ -104,6 +104,9 @@ body {
 .home-outlook .navigation a:not(:last-child) {
   margin-right: 10px;
 }
+.home-outlook .navigation a:last-child {
+  margin-right: 5px;
+}
 .home-outlook .navigation a:hover, .home-outlook .navigation a:active, .home-outlook .navigation a.picked {
   border-top: 2px solid #955214;
 }
