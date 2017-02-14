@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/hao.iml" filepath="$PROJECT_DIR$/.idea/hao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hao-ng.iml" filepath="$PROJECT_DIR$/.idea/hao-ng.iml" />
     </modules>
   </component>
 </project>
