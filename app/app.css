@@ -57,9 +57,6 @@ body {
 }
 @-webkit-keyframes fade-in {
   0% {
-    opacity: 0;
-  }
-  5% {
     opacity: 0.5;
   }
   100% {
@@ -68,9 +65,6 @@ body {
 }
 @-moz-keyframes fade-in {
   0% {
-    opacity: 0;
-  }
-  5% {
     opacity: 0.5;
   }
   100% {
@@ -79,9 +73,6 @@ body {
 }
 @keyframes fade-in {
   0% {
-    opacity: 0;
-  }
-  5% {
     opacity: 0.5;
   }
   100% {
