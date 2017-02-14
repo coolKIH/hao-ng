@@ -76,7 +76,7 @@ a {
   opacity: 0.5;
 }
 .navigation a:hover, .navigation a:active {
-  color: #96172e;
+  color: #444444;
 }
 @media all and (max-width: 880px) {
   .home-outlook {
