@@ -125,4 +125,7 @@ body {
     transform: translate(-50%,0);
     height: 90vh;
   }
+  .home-outlook .photo {
+    border: 5px solid rgba(149,82,20,0.2);
+  }
 }
