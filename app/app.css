@@ -41,8 +41,7 @@ a {
   -webkit-box-shadow: 0 0 18px #a0ac48;
   -moz-box-shadow: 0 0 18px #a0ac48;
   box-shadow: 0 0 18px #a0ac48;
-  background-color: #a0ac48;
-  background: url("images/ColourfulBackground7Colour2.svg") no-repeat center center;
+  background: #a0ac48 url("images/ColourfulBackground7Colour2.svg") no-repeat center center;
   background-size: cover;
 }
 .navigation {
