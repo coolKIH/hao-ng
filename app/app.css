@@ -19,7 +19,7 @@ html {
 
 body {
   font-family:  "Microsoft Yahei","微软雅黑", Arial, STXihei, "华文细黑",Tahoma, Helvetica, sans-serif;
-  background-color: #fffeee;
+  background-color: rgba(50,54,58,0.1);
 
   min-height: 100%;
   position: relative;
@@ -47,7 +47,7 @@ a {
 .navigation {
   display: block;
   width: 100%;
-  text-align: center;
+  text-align: right;
   padding-top: 5px;
 }
 .navigation a {
@@ -75,8 +75,11 @@ a {
   line-height: 1em;
   opacity: 0.5;
 }
-.navigation a:hover, .navigation a:active {
-  color: #444444;
+.navigation a span {
+  display: inline-block;
+}
+.navigation a:hover, .navigation a:active{
+  color: #333333;
 }
 @media all and (max-width: 880px) {
   .home-outlook {
