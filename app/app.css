@@ -18,3 +18,9 @@ html {
 body {
   font-family:  "Microsoft Yahei","微软雅黑", Arial, STXihei, "华文细黑",Tahoma, Helvetica, sans-serif;
 }
+
+.home-outlook {
+  color: white;
+  text-align:center;
+  background-color: #2aabd2;
+}
