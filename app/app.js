@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myWorld', ['ngRoute','homeOutlook', 'core.navigationBar', 'articles', 'intro', 'showcase'])
+angular.module('myWorld', ['ngRoute','homeOutlook', 'core.navigationBar', 'articles', 'intro', 'showcase','articleDetail'])
 .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
@@ -9,6 +9,9 @@ angular.module('myWorld', ['ngRoute','homeOutlook', 'core.navigationBar', 'artic
   })
     .when('/articles',{
       template: '<articles></articles>'
+    })
+    .when('/articles/:articleId',{
+      template: '<article-detail></article-detail>'
     })
     .when('/intro',{
       template: '<intro></intro>'

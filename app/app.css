@@ -184,11 +184,7 @@ body {
   background-color: #dd4b39;
 }
 .top-nav-bar .navigation a:hover, .top-nav-bar .navigation a:active{
-  background-color: rgba(55,56,57,0.1);
   text-shadow: 0 0 18px white;
-  -webkit-box-shadow:  0 0 10px white;
-  -moz-box-shadow:  0 0 10px white;
-  box-shadow:  0 0 10px white;
 }
 .articles .articles:after, .intro .intro:after, .showcase .showcase:after {
   content:'';
@@ -206,7 +202,7 @@ body {
   transform: translateX(-50%);
 }
 .articles .articles:after {
-  border-top-color: #2aabd2;
+  border-top-color: #168de2;
 }
 .intro .intro:after {
   border-top-color: #fbbc05;
