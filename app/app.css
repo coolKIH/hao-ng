@@ -154,12 +154,6 @@ body {
   right: -1px;
   width: 1px;
 }
-.top-nav-bar .navigation a:last-child {
-  margin-right: 1em;
-  -webkit-animation:last-child-of-top-nav 500ms;
-  -o-animation:last-child-of-top-nav 500ms;
-  animation:last-child-of-top-nav 500ms;
-}
 @-webkit-keyframes last-child-of-top-nav {
   from {
     margin-right: 0;
@@ -266,7 +260,41 @@ article-detail .top-nav-bar .navigation {
   -webkit-box-shadow:  0 0 18px #333333;
   -moz-box-shadow:  0 0 18px #333333;
   box-shadow:  0 0 18px #333333;
+  -webkit-animation: slide-in 500ms;
+  -moz-animation: slide-in 500ms;
+  animation:slide-in 500ms ;
 }
+@-webkit-keyframes slide-in {
+  from {
+    visibility: hidden;
+    margin-top: 1000px;
+  }
+  to {
+    margin-top: 0;
+    visibility: visible;
+  }
+}
+@-moz-keyframes slide-in {
+  from {
+    visibility: hidden;
+    margin-top: 1000px;
+  }
+  to {
+    margin-top: 0;
+    visibility: visible;
+  }
+}
+@keyframes slide-in{
+  from {
+    visibility: hidden;
+    margin-top: 1000px;
+  }
+  to {
+    margin-top: 0;
+    visibility: visible;
+  }
+}
+
 .article-detail .header .create-info {
   padding: 0.5em 18%;
   text-align: right;
@@ -325,5 +353,13 @@ article-detail .top-title-shower {
   }
   .article-detail .header .create-info {
     padding: 0.5em 3%;
+  }
+}
+@media all and (min-width: 800px) {
+  .top-nav-bar .navigation a:last-child {
+    margin-right: 1em;
+    -webkit-animation:last-child-of-top-nav 500ms;
+    -o-animation:last-child-of-top-nav 500ms;
+    animation:last-child-of-top-nav 500ms;
   }
 }
