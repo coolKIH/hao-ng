@@ -17,9 +17,7 @@ angular.module('articleDetail',['ngRoute'])
 document.addEventListener('scroll', function() {
   if(document.body.scrollTop > document.querySelector('.article-detail .header').clientHeight) {
     document.querySelector('.top-title-shower').style.display="block";
-    document.querySelector('.top-nav-bar').style.display="none";
   } else {
     document.querySelector('.top-title-shower').style.display="none";
-    document.querySelector('.top-nav-bar').style.display="block";
   }
 });
