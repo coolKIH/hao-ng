@@ -214,13 +214,16 @@ body {
 .showcase .showcase:after {
   border-top-color: #dd4b39;
 }
-article-detail .top-nav-bar .navigation {
+article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
   -webkit-box-shadow: none;
   -moz-box-shadow:  none;
   box-shadow:  none;
 }
 .article-detail .header {
-  background-color: #168de2;
+  background: #168de2;
+  background: -webkit-linear-gradient(to bottom, #168de2, #2aabd2, #168de2);
+  background: linear-gradient(to bottom, #168de2, #2aabd2, #168de2);
+
   text-transform: uppercase;
   text-align: center;
 
@@ -359,8 +362,8 @@ article-detail .top-title-shower {
 }
 .articles-wrapper {
   background: #ffb347; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ffb347 , #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom, #168de2 2%, #dd4b39, #ffb347 , #ffcc33); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #168de2 2%, #dd4b39, #ffb347 , #ffcc33); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .articles-wrapper:before, .articles-wrapper:after {
