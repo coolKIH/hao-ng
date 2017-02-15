@@ -3,9 +3,13 @@
  */
 'use strict';
 angular.module('articles',[])
-.component('articles',{
+.component('articles', {
   templateUrl: 'articles/articles.html',
-  controller: function() {
-
+  controller: ['$http', function ($http) {
+    var self = this;
+    $http.get('articles/articles.json').then(function(response) {
+      self.articles = response.data;
+    });
   }
+  ]
 });

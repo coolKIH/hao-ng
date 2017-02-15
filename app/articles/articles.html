@@ -1,2 +1,8 @@
 <div class="top-nav-bar"><navigation-bar class="bg-blue articles"></navigation-bar></div>
-<h1>articles</h1>
+<div class="articles-wrapper">
+  <div class="article-preview-card" ng-repeat="article in $ctrl.articles">
+    <div class="title"><a href="#!/articles/how-to">{{article.title}}</a></div>
+    <div class="date">{{article.date}}</div>
+    <div class="preview">{{article.preview}}</a></div>
+  </div>
+</div>
