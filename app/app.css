@@ -236,11 +236,11 @@ article-detail .top-nav-bar .navigation {
 }
 .article-detail .author, .article-detail .create-date {
   display: inline-block;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.9);
   margin: 0 8px;
   font-weight: bold;
-  border-bottom: 2px solid rgba(255,255,255,0.8);
-  border-top: 2px solid rgba(255,255,255,0.8);
+  border-bottom: 2px solid rgba(255,255,255,0.9);
+  border-top: 2px solid rgba(255,255,255,0.9);
   padding: 2px 5px;
 }
 .article-detail .author {
@@ -263,6 +263,31 @@ article-detail .top-nav-bar .navigation {
   padding: 0.5em 18%;
   text-align: right;
 }
+
+article-detail .top-title-shower {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-shadow: 0 0 2px #000000;
+  text-transform: uppercase;
+  left: 0;
+  right: 0;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 1;
+  background-color: #168de2;
+  color: white;
+  font-weight: bold;
+  -webkit-box-shadow:  0 0 18px #333333;
+  -moz-box-shadow:  0 0 18px #333333;
+  box-shadow:  0 0 18px #333333;
+
+  display: none;
+}
+
 @media all and (max-width: 800px) {
   .home-outlook {
     width: 100%;
