@@ -284,6 +284,7 @@ article-detail .top-title-shower {
   -webkit-box-shadow:  0 0 18px #333333;
   -moz-box-shadow:  0 0 18px #333333;
   box-shadow:  0 0 18px #333333;
+  text-overflow: ellipsis;
 
   display: none;
 }
