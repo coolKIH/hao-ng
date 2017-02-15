@@ -137,6 +137,7 @@ body {
   font-size: 16px;
   letter-spacing: 2px;
   font-weight: bold;
+  text-shadow: 0 0 2px #333333;
 
   -webkit-transition: all 300ms linear;
   -moz-transition: all 300ms linear;
@@ -215,41 +216,52 @@ article-detail .top-nav-bar .navigation {
   -moz-box-shadow:  none;
   box-shadow:  none;
 
-  background-color: white;
   border-top: 2px solid #168de2;
-}
-article-detail .top-nav-bar .navigation a {
-  color: #168de2;
-}
-.article-detail {
-  background-color: white;
 }
 .article-detail .header {
   background-color: #168de2;
   text-transform: uppercase;
   text-align: center;
+
+  -webkit-box-shadow:  0 0 16px #333333;
+  -moz-box-shadow:  0 0 16px #333333;
+  box-shadow:  0 0 16px #333333;
 }
 .article-detail .header .title {
-  padding: 2em 18%;
+  padding: 1.5em 18%;
   font-size: 3em;
   color: white;
   font-weight: bold;
-  text-shadow: 0 0 5px white;
+  text-shadow: 0 0 8px #333333;
+  letter-spacing: 1px;
 }
 .article-detail .author, .article-detail .create-date {
   display: inline-block;
   color: white;
   margin: 0 8px;
+  font-weight: bold;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  padding: 2px 5px;
+}
+.article-detail .author {
+  display: none;
 }
 .article-detail .body {
-  padding: 1em 18%;
+  padding: 1.5em 18%;
+  color: #222222;
 }
 .article-detail .body pre {
   white-space: pre-wrap;
-  word-break: break-all;
+  word-break: keep-all;
+  background-color: white;
+  padding: 25px 20px;
+  -webkit-box-shadow:  0 0 18px #333333;
+  -moz-box-shadow:  0 0 18px #333333;
+  box-shadow:  0 0 18px #333333;
 }
 .article-detail .header .create-info {
-  padding: 0 18%;
+  padding: 0.5em 18%;
   text-align: right;
 }
 @media all and (max-width: 800px) {
@@ -272,10 +284,13 @@ article-detail .top-nav-bar .navigation a {
   .top-nav-bar .navigation a:last-child {
     margin-right: 0;
   }
+  .article-detail .header .title {
+    font-size: 2.5em;
+  }
   .article-detail .header .title, .article-detail .body {
     padding: 1em 3%;
   }
   .article-detail .header .create-info {
-    padding: 0 3%;
+    padding: 0.5em 3%;
   }
 }
