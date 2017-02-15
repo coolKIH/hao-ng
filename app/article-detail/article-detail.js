@@ -5,7 +5,12 @@
 angular.module('articleDetail',['ngRoute'])
 .component('articleDetail',{
   templateUrl: 'article-detail/article-detail.html',
-  controller: ['$routeParams', function($routeParams) {
-    this.articleId = $routeParams.articleId;
+  controller: ['$routeParams', '$http', function($routeParams, $http) {
+    var self = this;
+    $http.get('article-detail/'+$routeParams.articleId+'.json').then(function(response) {
+      self.articleContent = response.data;
+    }, function() {
+      window.location.href='#!/articles';
+    });
   }]
 });

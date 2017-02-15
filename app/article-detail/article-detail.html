@@ -1,2 +1,11 @@
 <div class="top-nav-bar"><navigation-bar class="bg-blue articles"></navigation-bar></div>
-<h1>article detail: {{$ctrl.articleId}}</h1>
+<div class="article-detail">
+  <div class="header">
+    <div class="title">{{$ctrl.articleContent.title}}</div>
+    <div class="create-info">
+      <div class="author">{{$ctrl.articleContent.author}}</div>
+      <div class="create-date">{{$ctrl.articleContent.date}}</div>
+    </div>
+  </div>
+  <div class="body"><pre>{{$ctrl.articleContent.body}}</pre></div>
+</div>

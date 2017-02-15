@@ -210,6 +210,48 @@ body {
 .showcase .showcase:after {
   border-top-color: #dd4b39;
 }
+article-detail .top-nav-bar .navigation {
+  -webkit-box-shadow: none;
+  -moz-box-shadow:  none;
+  box-shadow:  none;
+
+  background-color: white;
+  border-top: 2px solid #168de2;
+}
+article-detail .top-nav-bar .navigation a {
+  color: #168de2;
+}
+.article-detail {
+  background-color: white;
+}
+.article-detail .header {
+  background-color: #168de2;
+  text-transform: uppercase;
+  text-align: center;
+}
+.article-detail .header .title {
+  padding: 2em 18%;
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 5px white;
+}
+.article-detail .author, .article-detail .create-date {
+  display: inline-block;
+  color: white;
+  margin: 0 8px;
+}
+.article-detail .body {
+  padding: 1em 18%;
+}
+.article-detail .body pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.article-detail .header .create-info {
+  padding: 0 18%;
+  text-align: right;
+}
 @media all and (max-width: 800px) {
   .home-outlook {
     width: 100%;
@@ -229,5 +271,11 @@ body {
   }
   .top-nav-bar .navigation a:last-child {
     margin-right: 0;
+  }
+  .article-detail .header .title, .article-detail .body {
+    padding: 1em 3%;
+  }
+  .article-detail .header .create-info {
+    padding: 0 3%;
   }
 }
