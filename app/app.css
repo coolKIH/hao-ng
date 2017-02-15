@@ -144,6 +144,16 @@ body {
 
   position: relative;
 }
+.top-nav-bar .navigation a:not(:last-child):before {
+  content: '|';
+  color: rgba(255,255,255,0.5);
+  position: absolute;
+  line-height: 2.5em;
+  display: inline-block;
+  top: 0;
+  right: -1px;
+  width: 1px;
+}
 .top-nav-bar .navigation a:last-child {
   margin-right: 1em;
   -webkit-animation:last-child-of-top-nav 500ms;
@@ -214,8 +224,6 @@ article-detail .top-nav-bar .navigation {
   -webkit-box-shadow: none;
   -moz-box-shadow:  none;
   box-shadow:  none;
-
-  border-top: 2px solid #168de2;
 }
 .article-detail .header {
   background-color: #168de2;
