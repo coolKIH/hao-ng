@@ -14,12 +14,3 @@ angular.module('articleDetail',['ngRoute'])
     });
   }]
 });
-document.addEventListener('scroll', function() {
-  if(document.querySelector('.article-detail')) {
-    if(document.body.scrollTop > document.querySelector('.article-detail .header').clientHeight) {
-      document.querySelector('.top-title-shower').style.display="block";
-    } else {
-      document.querySelector('.top-title-shower').style.display="none";
-    }
-  }
-});
