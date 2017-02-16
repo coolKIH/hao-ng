@@ -237,6 +237,9 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
   -webkit-animation:bg-changing 10s infinite;
   -o-animation:bg-changing 10s infinite;
   animation:bg-changing 10s infinite;
+  -webkit-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
 }
 @-webkit-keyframes bg-changing {
   0% {
@@ -252,8 +255,8 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
     background: linear-gradient(to bottom, #168de2, #2aabd2, #168de2);
   }
   75% {
-    background: -webkit-linear-gradient(to bottom, #2aabd2, #168de2, #168de2);
-    background: linear-gradient(to bottom, #2aabd2, #168de2, #168de2);
+    background: -webkit-linear-gradient(to bottom, #168de2, #2aabd2, #168de2, #168de2);
+    background: linear-gradient(to bottom, #168de2, #2aabd2, #168de2, #168de2);
   }
   100% {
     background: -webkit-linear-gradient(to bottom, #168de2, #2aabd2, #168de2);
@@ -274,8 +277,8 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
     background: linear-gradient(to bottom, #168de2, #2aabd2, #168de2);
   }
   75% {
-    background: -webkit-linear-gradient(to bottom, #2aabd2, #168de2, #168de2);
-    background: linear-gradient(to bottom, #2aabd2, #168de2, #168de2);
+    background: -webkit-linear-gradient(to bottom, #168de2, #2aabd2, #168de2, #168de2);
+    background: linear-gradient(to bottom, #168de2, #2aabd2, #168de2, #168de2);
   }
   100% {
     background: -webkit-linear-gradient(to bottom, #168de2, #2aabd2, #168de2);
@@ -296,8 +299,8 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
     background: linear-gradient(to bottom, #168de2, #2aabd2, #168de2);
   }
   75% {
-    background: -webkit-linear-gradient(to bottom, #2aabd2, #168de2, #168de2);
-    background: linear-gradient(to bottom, #2aabd2, #168de2, #168de2);
+    background: -webkit-linear-gradient(to bottom, #168de2, #2aabd2, #168de2, #168de2);
+    background: linear-gradient(to bottom, #168de2, #2aabd2, #168de2, #168de2);
   }
   100% {
     background: -webkit-linear-gradient(to bottom, #168de2, #2aabd2, #168de2);
