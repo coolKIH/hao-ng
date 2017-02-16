@@ -7,7 +7,7 @@ angular.module('articleDetail',['ngRoute','ngSanitize'])
   templateUrl: 'article-detail/article-detail.html',
   controller: ['$routeParams', '$http', function($routeParams, $http) {
     var self = this;
-    $http.get('article-detail/'+$routeParams.articleId+'.json').then(function(response) {
+    $http.get('article-detail/'+$routeParams.articleId+'.json?v=201702160').then(function(response) {
       self.articleContent = response.data;
     }, function() {
       window.location.href='#!/articles';
