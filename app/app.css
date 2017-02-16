@@ -32,6 +32,7 @@ body {
 .home-outlook {
   width: 80%;
   height: 80vh;
+  min-height: 300px;
   padding-bottom: 1.8em;
   position: absolute;
   top: 50%;
@@ -406,6 +407,7 @@ article-detail .top-title-shower {
   }
   .article-detail .header .create-info {
     padding: 0.5em 3%;
+    text-align: center;
   }
 
   .article-preview-card {
