@@ -32,8 +32,7 @@ body {
 .home-outlook {
   width: 80%;
   height: 80vh;
-  min-height: 300px;
-  padding-bottom: 1.8em;
+  padding-bottom: 32px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -248,6 +247,8 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
   border-bottom: 2px solid rgba(255,255,255,0.9);
   border-top: 2px solid rgba(255,255,255,0.9);
   padding: 2px 5px;
+  word-break: keep-all;
+  white-space: pre;
 }
 .article-detail .author {
   display: none;
@@ -389,9 +390,6 @@ article-detail .top-title-shower {
     -o-transform: translate(-50%,0);
     transform: translate(-50%,0);
     height: 90vh;
-  }
-  .home-outlook .photo {
-    border: 5px solid rgba(149,82,20,0.2);
   }
   .top-nav-bar .navigation {
     text-align: center;
