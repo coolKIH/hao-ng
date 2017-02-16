@@ -316,7 +316,6 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
   letter-spacing: 1px;
 }
 .article-detail .author, .article-detail .create-date {
-  display: inline-block;
   color: rgba(255,255,255,1);
   margin: 0 8px;
   font-weight: bold;

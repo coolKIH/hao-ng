@@ -4,8 +4,8 @@
   <div class="header">
     <div class="title">{{$ctrl.articleContent.title}}</div>
     <div class="create-info">
-      <span>{{$ctrl.articleContent.author}}</span>
-      <span>{{$ctrl.articleContent.date}}</span>
+      <span class="author">{{$ctrl.articleContent.author}}</span>
+      <span class="create-date">{{$ctrl.articleContent.date}}</span>
     </div>
   </div>
   <div class="body"><pre ng-bind-html="$ctrl.articleContent.body"></pre></div>
