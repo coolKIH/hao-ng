@@ -312,12 +312,12 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
   font-size: 3em;
   color: rgba(255,255,255,1);
   font-weight: bold;
-  text-shadow: 0 0 6px #000000;
+  text-shadow: 0 0 6px rgba(0,0,0,0.1);
   letter-spacing: 1px;
 }
 .article-detail .author, .article-detail .create-date {
   display: inline-block;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255,255,255,1);
   margin: 0 8px;
   font-weight: bold;
   border-bottom: 2px solid rgba(255,255,255,0.9);
