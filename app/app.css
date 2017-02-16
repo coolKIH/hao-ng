@@ -326,9 +326,6 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
   word-break: keep-all;
   white-space: pre;
 }
-.article-detail .author {
-  display: none;
-}
 .article-detail .body {
   padding: 1.5em 18%;
   color: #222222;
