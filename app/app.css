@@ -322,7 +322,8 @@ article-detail .top-nav-bar .navigation, articles .top-nav-bar .navigation {
   font-weight: bold;
   border-bottom: 2px solid rgba(255,255,255,0.9);
   border-top: 2px solid rgba(255,255,255,0.9);
-  padding: 2px 5px;
+  line-height: 28px;
+  padding: 0 5px;
   word-break: keep-all;
   white-space: pre;
 }
